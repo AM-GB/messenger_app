@@ -29,8 +29,16 @@ MESSAGE = {
     "message": None
 }
 
+MESSAGE_EXIT = {
+    "action": "exit",
+    "time": str(TIME),
+    "account_name": "",
+}
+
 RESPONSE_200 = {"response": 200}
 RESPONSE_400 = {
     "response": 400,
     "error": 'Bad Request'
 }
+RESPONSE_404 = {
+    "response": 404}
