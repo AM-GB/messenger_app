@@ -21,7 +21,6 @@ class ServerMaker(type):
                         if i.argval not in attrs:
                             attrs.append(i.argval)
         # print(methods)
-        # print(attrs)
         if 'connect' in methods:
             raise TypeError(
                 'Using the connect method is not allowed in the server class')

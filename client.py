@@ -10,7 +10,7 @@ import common.jim as jim
 
 from common.metaclasses import ClientMaker
 from common.decorators import log
-from common.config import (USER, ACCOUNT_NAME, RESPONSE, LOGGER_CLIENT,
+from common.config import (USER, ACCOUNT_NAME, RESPONSE, ERROR, LOGGER_CLIENT,
                            RECIPIENT, MESSAGE, SENDER)
 from common.utils import send_message, get_message, create_parser
 
