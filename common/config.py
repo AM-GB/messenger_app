@@ -4,7 +4,7 @@ import os
 
 
 DEFAULT_IP_ADDRESS = "localhost"
-DEFAULT_PORT = 7778
+DEFAULT_PORT = 7777
 MAX_CONNECTIONS = 5
 MAX_PACKAGE_LENGTH = 1024
 
@@ -30,6 +30,11 @@ ACTION_EXIT = "exit"
 RESPONSE = "response"
 ERROR = "error"
 MESSAGE = "message"
+GET_CONTACTS = "get_contacts"
+LIST_INFO = "data_list"
+REMOVE_CONTACT = "remove"
+ADD_CONTACT = "add"
+USERS_REQUEST = "get_users"
 
 LOGGER_CLIENT = "client"
 LOG_CLIENT_FILE = "client.log"
