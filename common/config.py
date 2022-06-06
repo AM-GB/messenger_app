@@ -1,5 +1,6 @@
 import logging
 import sys
+import os
 
 
 DEFAULT_IP_ADDRESS = "localhost"
@@ -8,6 +9,8 @@ MAX_CONNECTIONS = 5
 MAX_PACKAGE_LENGTH = 1024
 
 ENCODING = "utf-8"
+
+SERVER_DATABASE = f'sqlite:///database/server.db3'
 
 CLIENT_MODE_LISTEN = "listen"
 CLIENT_MODE_SEND = "send"
